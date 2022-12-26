@@ -11,6 +11,8 @@
 ## NOTE-1: we have a two types of "Jobs"
 ```
 
+
+
 stages:
   - stage-1: 'Build'
     jobs:
