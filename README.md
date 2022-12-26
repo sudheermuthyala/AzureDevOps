@@ -128,7 +128,7 @@ stages:
           steps: [ script | bash | pwsh | powershell | checkout | task | templateReference ]
 
 ```
-Deployment strategy []
+Deployment strategy [Reference](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops#deployment-strategies)
 - runOnce 
 
 There is a more detailed, alternative syntax you can also use for the environment property.
