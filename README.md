@@ -67,7 +67,7 @@ stages:
 # Build jobs
 stages
  - stage 
-    
+   
 
 ## Deployment Groups 
 what is A Deploymet Groups 
