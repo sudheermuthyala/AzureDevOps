@@ -63,8 +63,8 @@ stages:
 ```
 
 ## Types of Jobs
-```t
 # Build jobs [ReferenceT=58:55](https://youtu.be/gXk_GicAzeA?list=PLKb_hnKdTrx1Mb5Gr_o7Cnwz3hCh-vx4r)
+```t
 stages
  - stage: "Build-Job"
    jobs:
