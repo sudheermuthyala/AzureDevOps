@@ -11,20 +11,20 @@
 ## NOTE-1: we have a two types of "Jobs"
 
 stages: # Stage one
-  - stage-1: 'Build'
-    jobs:
-      - job1:
-        steps:
-        - step-1:
-          - task-1:
-          - task-2:
-          - task-3:
-      - job2:
-        steps:
-        - step-1:
-          - task-1:
-          - task-2:
-          - task-3:
+- stage-1: 'Build'
+  jobs:
+    - job1:
+      steps:
+      - step-1:
+        - task-1:
+        - task-2:
+        - task-3:
+    - job2:
+      steps:
+      - step-1:
+        - task-1:
+        - task-2:
+        - task-3:
 
   - stage-2: 'Release' # Stage Two      Release or Deployment Stage
     jobs:
