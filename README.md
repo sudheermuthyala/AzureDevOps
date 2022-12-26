@@ -63,7 +63,8 @@ stages:
 ```
 
 ## Types of Jobs
-
+```t
+Build jobs
 
 ## Deployment Groups 
 what is A Deploymet Groups 
