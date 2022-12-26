@@ -68,7 +68,7 @@ stages:
 ![](2022-12-26-13-44-54.png)
 
 <p align="center">
-  <img src="https://github.com/sudheermuthyala/AKSDOCS/blob/main/01-Create-AKS-Cluster/2022-11-21-16-03-54.png" />
+  <img src="https://github.com/sudheermuthyala/" />
     </p>
 - Release or Deployment Jobs [ReferenceT=58:55](https://youtu.be/gXk_GicAzeA?list=PLKb_hnKdTrx1Mb5Gr_o7Cnwz3hCh-vx4r)
   - Reference from AzureDevops Portal to Reffer [Deployment jobs](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops)
