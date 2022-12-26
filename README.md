@@ -66,7 +66,7 @@ stages:
 # Build jobs or standard job [ReferenceT=58:55](https://youtu.be/gXk_GicAzeA?list=PLKb_hnKdTrx1Mb5Gr_o7Cnwz3hCh-vx4r)
 ```t
 stages: # Stage one
-- stage-1: 'Build or Standard'
+- stage-1: 'Build or Standard jobs'
   jobs:
     - job1:
       steps:
@@ -80,6 +80,7 @@ stages: # Stage one
         - task-1:
         - task-2:
         - task-3:
+
 
 ## Deployment Groups 
 what is A Deploymet Groups 
