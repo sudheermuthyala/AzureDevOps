@@ -93,7 +93,7 @@ stages:
     uses: # Any resources (repos or pools) required by this job that are not already referenced
       repositories: [ string ] # Repository references to Azure Git repositories
       pools: [ string ] # Pool names, typically when using a matrix strategy for the job
-``
+```
   
 <p align="center">
   <img src="https://github.com/sudheermuthyala/AzureDevOps/blob/main/2022-12-26-13-52-06.png" />
