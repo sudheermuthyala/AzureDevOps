@@ -185,6 +185,28 @@ For example, a rolling deployment typically waits for deployments on each set of
 Rolling deployments can be configured by specifying the keyword rolling: under the strategy: node. The strategy.name variable is available in this strategy block, which takes the name of the strategy. In this case, rolling.
 ```
 ```t
+strategy:
+  rolling:
+    maxParallel: [ number or percentage as x% ]
+    preDeploy:        
+      steps:
+      - script: [ script | bash | pwsh | powershell | checkout | task | templateReference ]
+    deploy:          
+      steps:
+      ...
+    routeTraffic:         
+      steps:
+      ...        
+    postRouteTraffic:          
+      steps:
+      ...
+    on:
+      failure:         
+        steps:
+        ...
+      success:          
+        steps:
+        ...
 
 ```
 
