@@ -82,6 +82,7 @@ stages:
         - task-3:
 - stage-2: "Release or Deployment Jobs"
   jobs:
+    - deplo
 
   
 
