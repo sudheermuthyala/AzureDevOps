@@ -128,6 +128,10 @@ stages:
           steps: [ script | bash | pwsh | powershell | checkout | task | templateReference ]
 
 ```
+# There is a more detailed, alternative syntax you can also use for the environment property.
+```t
+
+```
 <p align="center">
   <img src="https://github.com/sudheermuthyala/AzureDevOps/blob/main/2022-12-26-13-55-10.png" />
     </p>
