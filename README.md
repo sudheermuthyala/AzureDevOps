@@ -80,7 +80,8 @@ stages:
         - task-1:
         - task-2:
         - task-3:
-- stage-2: "Deployment Jobs"
+- stage-2: "Release or Deployment Jobs"
+    
   
 
 ```
