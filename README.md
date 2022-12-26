@@ -128,7 +128,7 @@ stages:
           steps: [ script | bash | pwsh | powershell | checkout | task | templateReference ]
 
 ```
-# There is a more detailed, alternative syntax you can also use for the environment property.
+There is a more detailed, alternative syntax you can also use for the environment property.
 ```t
 environment:
     name: string # Name of environment.
