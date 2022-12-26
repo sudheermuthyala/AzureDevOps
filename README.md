@@ -26,7 +26,7 @@ stages: # Stage one
           - task-2:
           - task-3:
 
-  - stage-2: 'Release' # Stage Two      Rel
+  - stage-2: 'Release' # Stage Two      Release or Deployment
     jobs:
       - job2:
         steps:
