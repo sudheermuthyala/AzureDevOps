@@ -65,7 +65,7 @@ stages:
 ## Types of Jobs
 - Build jobs or standard job
   - Reference from AzureDevops Portal to Reffe [Treditional](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml)
-
+![](2022-12-26-13-44-54.png)
 - Release or Deployment Jobs [ReferenceT=58:55](https://youtu.be/gXk_GicAzeA?list=PLKb_hnKdTrx1Mb5Gr_o7Cnwz3hCh-vx4r)
   - Reference from AzureDevops Portal to Reffer [Deployment jobs](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops)
 
