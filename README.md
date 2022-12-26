@@ -64,7 +64,7 @@ stages:
 
 ## Types of Jobs
 # Build jobs or standard job 
-# 
+# [ReferenceT=58:55](https://youtu.be/gXk_GicAzeA?list=PLKb_hnKdTrx1Mb5Gr_o7Cnwz3hCh-vx4r)
 ```t
 stages: 
 - stage-1: 'Build or Standard jobs'
