@@ -68,10 +68,10 @@ stages:
 stages
 - stage-1: "Build-Job"
   jobs:
-   - job:
-     steps:
-     - step:
-       - task:
+- job:
+  steps:
+  - step:
+    - task:
 
 ## Deployment Groups 
 what is A Deploymet Groups 
