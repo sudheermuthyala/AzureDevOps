@@ -65,7 +65,7 @@ stages:
 ## Types of Jobs
 - Build jobs or standard job
   - Reference from AzureDevops Portal to Reffe [Treditional](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml)
-
+```t
 stages: 
 - stage-1: 'Build or Standard jobs'
   jobs:
