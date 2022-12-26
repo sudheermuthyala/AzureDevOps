@@ -66,8 +66,7 @@ stages:
 ```t
 # Build jobs
 stages
-- stage
-    jobs
+    
 
 ## Deployment Groups 
 what is A Deploymet Groups 
