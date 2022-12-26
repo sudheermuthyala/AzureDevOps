@@ -66,7 +66,7 @@ stages:
 ```t
 # Build jobs
 stages
- - stage: 
+ - stage: ""
    jobs:
     - job
 ## Deployment Groups 
