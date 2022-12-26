@@ -10,7 +10,7 @@
 ## TasK-3
 ## NOTE-1: we have a two types of "Jobs"
 
-stages: # 
+stages: # Stage one
   - stage-1: 'Build'
     jobs:
       - job1:
