@@ -128,39 +128,6 @@ stages:
           steps: [ script | bash | pwsh | powershell | checkout | task | templateReference ]
 
 ```
-Deployment strategy [Reference](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops#deployment-strategies)
-- **runOnce** [RunOnce deployment strategy](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops#runonce-deployment-strategy)
-  - runOnce is the simplest deployment strategy wherein all the lifecycle hooks, namely preDeploy deploy, routeTraffic, and postRouteTraffic, are executed once. Then, either on: success or on: failure is executed.
-
-```t
-strategy: 
-    runOnce:
-      preDeploy:        
-        pool: [ server | pool ] # See pool schema.        
-        steps:
-        - script: [ script | bash | pwsh | powershell | checkout | task | templateReference ]
-      deploy:          
-        pool: [ server | pool ] # See pool schema.        
-        steps:
-        ...
-      routeTraffic:         
-        pool: [ server | pool ]         
-        steps:
-        ...        
-      postRouteTraffic:          
-        pool: [ server | pool ]        
-        steps:
-        ...
-      on:
-        failure:         
-          pool: [ server | pool ]           
-          steps:
-          ...
-        success:          
-          pool: [ server | pool ]           
-          steps:
-          ...
-```
 
 
 There is a more detailed, alternative syntax you can also use for the environment property.
