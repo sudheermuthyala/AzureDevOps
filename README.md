@@ -131,7 +131,7 @@ stages:
 Deployment strategy [Reference](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops#deployment-strategies)
 - **runOnce** [RunOnce deployment strategy](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops#runonce-deployment-strategy)
   - runOnce is the simplest deployment strategy wherein all the lifecycle hooks, namely preDeploy deploy, routeTraffic, and postRouteTraffic, are executed once. Then, either on: success or on: failure is executed.
-  
+
 ```t
 strategy: 
     runOnce:
@@ -160,7 +160,6 @@ strategy:
           pool: [ server | pool ]           
           steps:
           ...
-
 ```
 
 
