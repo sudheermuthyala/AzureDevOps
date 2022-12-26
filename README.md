@@ -177,6 +177,7 @@ strategy:
 Rolling deployment strategy
 
 
+
 ```t
 stages: 
 - stage-1: 'Build or Standard jobs'
