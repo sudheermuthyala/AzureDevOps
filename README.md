@@ -70,6 +70,7 @@ stages:
 - stage-1: 'Build or Standard jobs'
   jobs:
     - job1:
+```
   
 <p align="center">
   <img src="https://github.com/sudheermuthyala/AzureDevOps/blob/main/2022-12-26-13-52-06.png" />
