@@ -1,4 +1,4 @@
-```t
+```
 ## Stages
 ## stage
 ## Jobs
@@ -9,10 +9,6 @@
 ## Task-2
 ## TasK-3
 ## NOTE-1: we have a two types of "Jobs"
-```
-
-```
-```
 
 stages:
   - stage-1: 'Build'
