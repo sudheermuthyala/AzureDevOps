@@ -62,7 +62,7 @@ stages:
   - stage-2:
 ```
 
-NOtE: Types of Jobs
+NOTE: Types of Jobs
 
 ## Deployment Groups 
 what is A Deploymet Groups 
