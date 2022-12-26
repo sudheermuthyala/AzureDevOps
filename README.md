@@ -65,13 +65,21 @@ stages:
 ## Types of Jobs
 # Build jobs or standard job [ReferenceT=58:55](https://youtu.be/gXk_GicAzeA?list=PLKb_hnKdTrx1Mb5Gr_o7Cnwz3hCh-vx4r)
 ```t
-stages
-- stage-1: "Build-Job"
+stages: # Stage one
+- stage-1: 'Build'
   jobs:
-  - job:
-    steps:
-    - step:
-      - task:
+    - job1:
+      steps:
+      - step-1:
+        - task-1:
+        - task-2:
+        - task-3:
+    - job2:
+      steps:
+      - step-1:
+        - task-1:
+        - task-2:
+        - task-3:
 
 ## Deployment Groups 
 what is A Deploymet Groups 
