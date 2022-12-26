@@ -64,7 +64,7 @@ stages:
 
 ## Types of Jobs
 ```t
-# Build jobs [Reference]
+# Build jobs [Reference]()
 stages
  - stage: "Build-Job"
    jobs:
