@@ -162,9 +162,6 @@ stages:
 - stage-2: "Release or Deployment Jobs"
   jobs:
   - deployment:
-
-  
-
 ```
 
 ## Deployment Groups 
