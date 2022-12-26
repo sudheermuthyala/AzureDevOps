@@ -184,7 +184,9 @@ For example, a rolling deployment typically waits for deployments on each set of
 
 Rolling deployments can be configured by specifying the keyword rolling: under the strategy: node. The strategy.name variable is available in this strategy block, which takes the name of the strategy. In this case, rolling.
 ```
+```t
 
+```
 
 ```t
 stages: 
