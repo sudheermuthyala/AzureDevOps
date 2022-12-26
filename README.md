@@ -104,6 +104,9 @@ stages:
 
 
 ```t
+- stage-2: "Release or Deployment Jobs"
+  jobs:
+  - deployment:
 
 ```
 <p align="center">
