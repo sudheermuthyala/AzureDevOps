@@ -130,7 +130,12 @@ stages:
 ```
 # There is a more detailed, alternative syntax you can also use for the environment property.
 ```t
-
+environment:
+    name: string # Name of environment.
+    resourceName: string # Name of resource.
+    resourceId: string # Id of resource.
+    resourceType: string # Type of environment resource.
+    tags: string # List of tag filters.
 ```
 <p align="center">
   <img src="https://github.com/sudheermuthyala/AzureDevOps/blob/main/2022-12-26-13-55-10.png" />
