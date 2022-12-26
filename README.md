@@ -66,6 +66,7 @@ Types of Jobs
 Build jobs or standard job 
 Release or Deployment Jobs [ReferenceT=58:55](https://youtu.be/gXk_GicAzeA?list=PLKb_hnKdTrx1Mb5Gr_o7Cnwz3hCh-vx4r)
 Reference from AzureDevops Portal to Reffer [Deployment jobs](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops)
+
 ```t
 stages: 
 - stage-1: 'Build or Standard jobs'
