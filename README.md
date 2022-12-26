@@ -68,7 +68,7 @@ stages:
 stages: 
 - stage-1: 'Build or Standard jobs'
   jobs:
-    - job1: ## for Buld jobs we
+    - job1: ## for Buld jobs we can define =
       steps:
       - step-1:
         - task-1:
