@@ -73,11 +73,12 @@ stages:
     
 - Release or Deployment Jobs [ReferenceT=58:55](https://youtu.be/gXk_GicAzeA?list=PLKb_hnKdTrx1Mb5Gr_o7Cnwz3hCh-vx4r)
   - Reference from AzureDevops Portal to Reffer [Deployment jobs](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops)
+
 <p align="center">
   <img src="https://github.com/sudheermuthyala/AzureDevOps/blob/main/2022-12-26-13-52-06.png" />
     </p>
 
-![](2022-12-26-13-55-10.png)
+![]()
 ```t
 stages: 
 - stage-1: 'Build or Standard jobs'
