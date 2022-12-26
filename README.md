@@ -174,6 +174,7 @@ strategy:
           steps:
           ...
 ```
+Rolling deployment strategy
 
 
 ```t
