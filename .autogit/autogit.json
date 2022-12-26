@@ -3,6 +3,7 @@
   "updateInterval": 5,
   "logging": false,
   "silent": false,
-  "commitMessage": "--- AZUREDEVOPS Auto Git Commit ---"
-
+  "commitMessage": "--- AZUREDEVOPS Auto Git Commit ---",
+  "locale": "en-US",
+  "timeZone": "Europe/Berlin"
 }
