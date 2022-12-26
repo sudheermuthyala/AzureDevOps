@@ -72,6 +72,7 @@ stages
       steps:
       - step:
         - task:
+
 ## Deployment Groups 
 what is A Deploymet Groups 
 - Meachions can with in AzureDevops or Outof AzureDevops (Ex:AWS,GCP)
