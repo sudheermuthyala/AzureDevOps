@@ -68,7 +68,8 @@ stages:
 stages
  - stage: "Build-Job"
    jobs:
-    - job
+    - job:
+    
 ## Deployment Groups 
 what is A Deploymet Groups 
 - Meachions can with in AzureDevops or Outof AzureDevops (Ex:AWS,GCP)
