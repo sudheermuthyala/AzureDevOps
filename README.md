@@ -26,14 +26,14 @@ stages: # Stage one
         - task-2:
         - task-3:
 
-  - stage-2: 'Release' # Stage Two      Release or Deployment Stage
-    jobs:
-      - job2:
-        steps:
-        - step-2:
-          - task-1:
-          - task-2:
-          - task-3:
+- stage-2: 'Release' # Stage Two      Release or Deployment Stage
+  jobs:
+    - job2:
+      steps:
+      - step-2:
+        - task-1:
+        - task-2:
+        - task-3:
 
 ## We can define all tasks Under single "steps"
 ## EX: 
