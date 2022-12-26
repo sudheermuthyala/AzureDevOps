@@ -65,7 +65,7 @@ stages:
 ## Types of Jobs
 # Build jobs or standard job 
 # Release or Deployment Jobs [ReferenceT=58:55](https://youtu.be/gXk_GicAzeA?list=PLKb_hnKdTrx1Mb5Gr_o7Cnwz3hCh-vx4r)
-# Reference Azure
+# Reference from AzureDevops Portal 
 ```t
 stages: 
 - stage-1: 'Build or Standard jobs'
