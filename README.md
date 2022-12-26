@@ -69,31 +69,31 @@ stages:
 stages: 
 - stage-1: 'Build or Standard jobs'
   jobs:
-    - job: string  # name of the job, A-Z, a-z, 0-9, and underscore
-      displayName: string  # friendly name to display in the UI
-      dependsOn: string | [ string ]
-      condition: string
-      strategy:
-        parallel: # parallel strategy
-        matrix: # matrix strategy
-        maxParallel: number # maximum number simultaneous matrix legs to run
-        # note: `parallel` and `matrix` are mutually exclusive
-        # you may specify one or the other; including both is an error
-        # `maxParallel` is only valid with `matrix`
-      continueOnError: boolean  # 'true' if future jobs should run even if this job fails; defaults to 'false'
-      pool: pool # agent pool
-      workspace:
-        clean: outputs | resources | all # what to clean up before the job runs
-      container: containerReference # container to run this job inside
-      timeoutInMinutes: number # how long to run the job before automatically cancelling
-      cancelTimeoutInMinutes: number # how much time to give 'run always even if cancelled tasks' before killing them
-      variables: { string: string } | [ variable | variableReference ] 
-      steps: [ script | bash | pwsh | powershell | checkout | task | templateReference ]
-      services: { string: string | container } # container resources to run as a service container
-      uses: # Any resources (repos or pools) required by this job that are not already referenced
-        repositories: [ string ] # Repository references to Azure Git repositories
-        pools: [ string ] # Pool names, typically when using a matrix strategy for the job
-```
+  - job: string  # name of the job, A-Z, a-z, 0-9, and underscore
+    displayName: string  # friendly name to display in the UI
+    dependsOn: string | [ string ]
+    condition: string
+    strategy:
+      parallel: # parallel strategy
+      matrix: # matrix strategy
+      maxParallel: number # maximum number simultaneous matrix legs to run
+      # note: `parallel` and `matrix` are mutually exclusive
+      # you may specify one or the other; including both is an error
+      # `maxParallel` is only valid with `matrix`
+    continueOnError: boolean  # 'true' if future jobs should run even if this job fails; defaults to 'false'
+    pool: pool # agent pool
+    workspace:
+      clean: outputs | resources | all # what to clean up before the job runs
+    container: containerReference # container to run this job inside
+    timeoutInMinutes: number # how long to run the job before automatically cancelling
+    cancelTimeoutInMinutes: number # how much time to give 'run always even if cancelled tasks' before killing them
+    variables: { string: string } | [ variable | variableReference ] 
+    steps: [ script | bash | pwsh | powershell | checkout | task | templateReference ]
+    services: { string: string | container } # container resources to run as a service container
+    uses: # Any resources (repos or pools) required by this job that are not already referenced
+      repositories: [ string ] # Repository references to Azure Git repositories
+      pools: [ string ] # Pool names, typically when using a matrix strategy for the job
+``
   
 <p align="center">
   <img src="https://github.com/sudheermuthyala/AzureDevOps/blob/main/2022-12-26-13-52-06.png" />
