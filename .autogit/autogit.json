@@ -1,0 +1,8 @@
+{
+  "runOnStart": true,
+  "updateInterval": 5,
+  "logging": false,
+  "silent": false,
+  "commitMessage": "--- AZUREDEVOPS Auto Git Commit ---"
+
+}
