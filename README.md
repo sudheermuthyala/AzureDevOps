@@ -129,7 +129,7 @@ stages:
 
 ```
 Deployment strategy [Reference](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops#deployment-strategies)
-- runOnce [reference](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops#runonce-deployment-strategy)
+- runOnce [RunOnce deployment strategy](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops#runonce-deployment-strategy)
 
 There is a more detailed, alternative syntax you can also use for the environment property.
 ```t
