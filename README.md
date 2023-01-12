@@ -1,6 +1,6 @@
 ## What is azure devops 
 - technological implementation
-- 5 core services to 
+- 5 core services to impleme
 ```t
 ## Stages
 ## stage
