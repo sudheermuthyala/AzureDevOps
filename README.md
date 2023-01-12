@@ -1,5 +1,5 @@
 ## What is azure devops 
-- technological
+- technological implementation
 ```t
 ## Stages
 ## stage
